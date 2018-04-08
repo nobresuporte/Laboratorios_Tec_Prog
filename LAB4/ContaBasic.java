@@ -4,6 +4,11 @@ public class ContaBasic extends Conta{
 		this.id = id;
 		this.saldo = saldo;
 	}
+
+	ContaBasic(double saldo){
+		this.id = id;
+		this.saldo = saldo;
+	}
 	
 	public void creditar(double valor){
 		saldo = saldo + valor;

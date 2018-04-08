@@ -1,3 +1,16 @@
+//ALUNO: ANDERSON NOBRE DA SILVA - 352132
+
+//Uso de Polimorfismos: 
+//Coerção: foi usado quando passamos como argumento nos métodos
+//creditar e debitar, valores do tipo int, que são convertidos 
+// para double automaticamente.
+
+//Inclusão: Foi utilizado quando sobrescrevemos o método toString 
+//nas classes Sistema, ContaBasic, ContaExtreme e ContaPlus.
+
+//Sobrecarga: Utilizado no método construtor da Classe ContaBasic.
+
+
 public class Main{
 
 
@@ -21,9 +34,9 @@ public class Main{
 	System.out.println(s.consultarSaldo(3));
 	
 
-	s.toString(1);
-	s.toString(2);
-	s.toString(3);
+	//s.toString(1);
+	//s.toString(2);
+	//s.toString(3);
 
 
   }
